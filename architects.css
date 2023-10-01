@@ -179,8 +179,6 @@ font-size: 25px;
 font-weight: 500;
 }
 .feat-img{
-
-width: 708px;
 height: 75%;
 width: 100%;
 border-radius: 5px;
@@ -292,6 +290,9 @@ margin-top: 230px;
     .feat-img{
         width:100%;
         margin: 0 auto;
+    }
+    .feature-card{
+        width: 100%;
     }
     .ten-years{
         position:relative;
