@@ -128,7 +128,7 @@ main{
 .features{
     display: flex;
     margin-top: 130px;
-    gap: 100px;
+    gap: 150px;
 }
 .section-title{
 color: #131313;
@@ -148,7 +148,9 @@ padding-left: 10px;
 }
 
 .feature-card{
-padding: 20px;  
+padding: 20px; 
+width: 530px;
+height: 130px; 
 margin-bottom: 20px;  
 border-radius: 5px;
 background: #FFF;
@@ -164,6 +166,7 @@ padding: 20px;
 text-align: center;
 position: relative;
 bottom: 100px;
+right: 50px;
 }
 .year-title{
     color: #FFF;
@@ -176,9 +179,10 @@ font-size: 25px;
 font-weight: 500;
 }
 .feat-img{
-margin-left: 50px;
+
 width: 708px;
-height: 90%;
+height: 75%;
+width: 100%;
 border-radius: 5px;
 }
 
@@ -264,10 +268,12 @@ margin-top: 230px;
         gap: 10px;
         align-items: center;  
     }
-    .teams-container , .features
+    .teams-container 
     {
         flex-direction: column;}
-
+        .features{
+            flex-direction: column;
+        }
 
     .teams-img{
         width: 180px;
@@ -278,8 +284,8 @@ margin-top: 230px;
        }
 
     .sponsors-img{
-        flex-direction: column;
-        gap: 30px;
+       flex-direction: column;
+       gap: 30px;
        width: 180px;
        margin-left: 90px;
     }
